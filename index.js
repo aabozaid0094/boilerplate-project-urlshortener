@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const dns = require("dns");
 const app = express();
+const urls = new Set();
 
 // Basic Configuration
 const port = process.env.PORT || 3000;
